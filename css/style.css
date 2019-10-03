@@ -1,0 +1,119 @@
+@import url(//fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+* {
+  text-align: center;
+  font-family: 'NanumSquare', sans-serif;
+}
+
+body {
+  padding-bottom: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+.chicken-icon {
+  width: 80%;
+  margin: 30px auto 0;
+  display: block;
+  max-width: 200px;
+}
+
+.icon-description {
+  font-size: 10px;
+  letter-spacing: -0.4px;
+  color: lightgray;
+}
+
+.icon-description > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.title-main {
+  font-size: 40px;
+  color: #754F44;
+  font-family: initial;
+  font-weight: 900;
+}
+
+.title-sub {
+  font-family: "hanna", sans-serif;
+  margin-top: -30px;
+  letter-spacing: 0.5px;
+  font-size: 25px;
+  font-weight: 100;
+  color: #754F44;
+}
+
+.title-description {
+  letter-spacing: -1px;
+  font-size: 16px;
+  margin-top: 30px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.result {
+  margin-bottom: 50px;
+}
+
+.meta {
+  margin-top: 30px;
+}
+
+.meta-title {
+  cursor: pointer;
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.meta-title:hover {
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+.meta-content > p {
+  max-width: 500px;
+  margin: auto;
+  padding: 15px;
+  font-size: 15px;
+  letter-spacing: -0.5px;
+  line-height: 25px;
+}
+
+.meta-content-quotation {
+  margin: 10px;
+  font-style: italic;
+  display: block;
+  font-weight: 700;
+}
+
+.people-input {
+  margin: 20px;
+  border: 1px solid #754F44;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.people-button {
+  background: #754F44;
+  color: white;
+  height: 35px;
+  font-weight: 700;
+  width: 60px;
+  border: none;
+  border-radius: 3px;
+  font-size: 13px;
+}
+
+.decoration-icon {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.decoration-icons {
+  margin-bottom: 10px;
+}
